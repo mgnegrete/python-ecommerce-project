@@ -1,7 +1,7 @@
 from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 
-OSCAR_SHOP_NAME = "CSUN Store 2.0"
+OSCAR_SHOP_NAME = "CSUN Store"
 OSCAR_SHOP_TAGLINE = ""
 OSCAR_HOMEPAGE = reverse_lazy("catalogue:index")
 
