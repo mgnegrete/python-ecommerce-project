@@ -16,3 +16,55 @@ This repository contains the source code for a Python-based e-commerce website. 
 - Promotional Banners: Include banners or sliders on your website to promote special offers, discounts, or featured products.
 - Contact Form: Include a contact form or live chat feature to allow users to reach out to customer support or ask questions about products or orders.
 - Order Tracking: Implement a tracking system that allows users to track the status of their orders in real-time, providing transparency and peace of mind.
+
+## To get started with this repo, follow these steps:
+
+1. **Clone the Repository:**
+   
+   ```bash
+   git clone https://github.com/mgnegrete/python-ecommerce-project.git
+
+1. **Create Virtual Environment**
+    
+    Navigate into the cloned repository directory:
+    '''bash
+    cd python-ecommerce-project
+    
+    Create Virtual Environment:
+    ```bash
+    python3 -m venv env  # For venv
+    or
+    ```bash
+    virtualenv env       # For virtualenv
+
+    Activate Virtual Environment:
+    '''bash
+    source env/bin/activate  # For Unix/Linux
+    or    
+    .\env\Scripts\activate   # For Windows
+
+1. **Install Dependencies**
+    
+    ```bash
+    pip install -r requirements.txt
+    or
+    ```bash
+    pip3 install -r requirements.txt
+
+1. **Run the Project:**
+    After installing the dependencies, navigate into the project directory and perform database migrations:
+
+   ```bash
+   python manage.py migrate
+   or
+   ```bash
+   python3 manage.py migrate
+   
+   ## Once the migrations are applied, you can start the development server:
+    ```bash
+    python manage.py runserver
+    or
+    python3 manage.py runserver
+
+
+
