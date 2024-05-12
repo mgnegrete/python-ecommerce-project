@@ -55,6 +55,12 @@ This repository contains the source code for a Python-based e-commerce website. 
 
 1. **Install Dependencies**
     
+    Navigate to CsunStore
+    ```bash
+    cd store/
+    ```
+
+
     ```bash
     pip install -r requirements.txt
     ```    
