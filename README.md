@@ -24,7 +24,7 @@ This repository contains the source code for a Python-based e-commerce website. 
    ```bash
    git clone https://github.com/mgnegrete/python-ecommerce-project.git
 
-1. **Create Virtual Environment**
+1. **Virtual Environment**
     
     Navigate into the cloned repository directory:
     
@@ -44,7 +44,7 @@ This repository contains the source code for a Python-based e-commerce website. 
     ```    
     Activate Virtual Environment:
 
-    '''bash
+    ```bash
     source env/bin/activate  # For Unix/Linux
     ```    
     or
@@ -52,6 +52,7 @@ This repository contains the source code for a Python-based e-commerce website. 
     ```bash    
     .\env\Scripts\activate   # For Windows
     ```
+
 1. **Install Dependencies**
     
     ```bash
@@ -74,6 +75,7 @@ This repository contains the source code for a Python-based e-commerce website. 
    python3 manage.py migrate
     ```
    ## Once the migrations are applied, you can start the development server:
+    
     ```bash
     python manage.py runserver
     ```    
