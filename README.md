@@ -30,56 +30,57 @@ This repository contains the source code for a Python-based e-commerce website. 
     
     ```bash
     cd python-ecommerce-project
+    ```
     
     Create Virtual Environment:
 
     ```bash
     python3 -m venv env  # For venv
-    
+    ```    
     or
     
     ```bash
     virtualenv env       # For virtualenv
-
+    ```    
     Activate Virtual Environment:
 
     '''bash
     source env/bin/activate  # For Unix/Linux
-    
+    ```    
     or
 
     ```bash    
     .\env\Scripts\activate   # For Windows
-
+    ```
 1. **Install Dependencies**
     
     ```bash
     pip install -r requirements.txt
-    
+    ```    
     or
 
     ```bash
     pip3 install -r requirements.txt
-
+    ```
 1. **Run the Project:**
     After installing the dependencies, navigate into the project directory and perform database migrations:
 
    ```bash
    python manage.py migrate
-   
+    ```
    or
    
    ```bash
    python3 manage.py migrate
-   
+    ```
    ## Once the migrations are applied, you can start the development server:
     ```bash
     python manage.py runserver
-    
+    ```    
     or
 
     ```bash
     python3 manage.py runserver
-
+    ```
 
 
