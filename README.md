@@ -63,7 +63,8 @@ This repository contains the source code for a Python-based e-commerce website. 
     ```bash
     pip3 install -r requirements.txt
     ```
-1. **Run the Project:**
+1. **Run the Project**
+
     After installing the dependencies, navigate into the project directory and perform database migrations:
 
    ```bash
