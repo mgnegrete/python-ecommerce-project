@@ -17,7 +17,6 @@ urlpatterns = [
     path("admin/", include(wagtailadmin_urls)),
     path("documents/", include(wagtaildocs_urls)),
     path('', include(apps.get_app_config('oscar').urls[0])),
-    path('tester/', TemplateView.as_view(template_name = "header_spaceship-variant-one.html")),
 
 ]
 
