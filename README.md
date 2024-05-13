@@ -55,7 +55,7 @@ This repository contains the source code for a Python-based e-commerce website. 
 
 1. **Install Dependencies**
     
-    Navigate to CsunStore
+    Navigate to the store directory
     ```bash
     cd store/
     ```
